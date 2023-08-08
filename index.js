@@ -10,8 +10,9 @@ function writeCards(array) {
 writeCards(["Bob", "Simp", "Cougar"])
 
 function countDown(n) {
-    for (let i = n; i >= 0; i--) {
-        console.log(i);
+    while(n >= 0) {
+        console.log(n);
+        n--;
     }
 
 }
